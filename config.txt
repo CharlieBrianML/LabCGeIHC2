@@ -1,0 +1,12 @@
+$(SolutionDir)/External Libraries/GLEW/include
+$(SolutionDir)/External Libraries/GLFW/include
+$(SolutionDir)/External Libraries/glm
+c/c++  ->  general  -> directorios de inclusion adicionales
+
+$(SolutionDir)/External Libraries/GLEW/lib/Release/Win32
+$(SolutionDir)/External Libraries/GLFW/lib-vc2015
+Vinculador  ->  general   ->   Directorios de librerias adicionales
+
+opengl32.lib;glew32.lib;glfw3.lib;
+Vinculador   ->  Entrada   ->  Directorios adicionales
+
